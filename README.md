@@ -80,6 +80,7 @@ npm install
 npx json-server db.json 
 4️⃣ Run the React App
 npm start
+
 🔑 Authentication & Roles
 Sign Up / Sign In:
 
