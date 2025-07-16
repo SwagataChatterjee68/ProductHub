@@ -2,21 +2,43 @@
 A modern, beautifully designed e-commerce admin and user system built with React, Tailwind CSS, React Hook Form, Redux Toolkit, and json-server for a fully functional product management and shopping experience.
 
 🚀 Features
-✅ Modern, clean, white-themed UI with Tailwind CSS
-✅ Product List with images, name, price, and description
-✅ Add to Cart functionality for users
-✅ Role-based routing and protected routes using React Router DOM
-✅ Admin and User authentication (Sign Up / Sign In) with role-based feature control
-✅ User/Admin data stored in json-server (db.json)
-✅ CRUD operations for products (admin only)
-✅ React Hook Form for all forms (login, signup, product forms)
-✅ Redux Toolkit for clean, efficient state management (auth, products, cart)
-✅ React Router DOM for SPA routing and protected route structures
-✅ React Toastify for clean, animated notifications
-✅ Axios for API requests
-✅ nanoid for generating unique IDs
-✅ Uses hardcoded initial products while supporting CRUD via API
-✅ Fully responsive and mobile-friendly
+Frontend:
+
+Modern, clean, white-themed UI with Tailwind CSS
+
+Product List with images, name, price, and description
+
+Add to Cart functionality for users
+
+Role-based routing and protected routes using React Router DOM
+
+Admin and User authentication (Sign Up / Sign In) with role-based feature control
+
+User/Admin data stored in json-server (db.json)
+
+CRUD operations for products (admin only)
+
+React Hook Form for all forms (login, signup, product forms)
+
+Redux Toolkit for clean, efficient state management (auth, products, cart)
+
+React Router DOM for SPA routing and protected route structures
+
+React Toastify for clean, animated notifications
+
+Axios for API requests
+
+nanoid for generating unique IDs
+
+Fully responsive and mobile-friendly
+
+Backend:
+
+json-server with db.json for:
+
+Users (Admin/User roles)
+
+Product storage
 
 🛠️ Tech Stack
 Frontend:
