@@ -9,7 +9,7 @@ const Login = () => {
     const LoginHandler = (user) => {
         reset()
         dispatch(asyncLoginUser(user))
-        navigate("/products")
+        
     }
     return (
       <div className="min-h-screen bg-[#0a0a0a] flex justify-center items-center px-4">

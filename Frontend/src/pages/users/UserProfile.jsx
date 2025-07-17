@@ -55,7 +55,7 @@ const UserProfile = () => {
             {user?.name?.charAt(0)}
           </div>
           <h2 className="text-white text-lg font-semibold mt-4">{user?.name}</h2>
-          <p className="text-gray-400 text-sm">@{user?.username}</p>
+          <p className="text-gray-400 text-sm">{user?.username}</p>
 
           <div className="mt-6 w-full px-6 space-y-2 ">
 
